@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Links</title>
+</head>
+
+<body>
+    <h1>HTML Links</h1>
+    <p>HTML links are hyperlinks. <br />
+        You can click on a link and jump to another document. <br />
+        When you move the mouse over a link, the mouse arrow will turn into a little hand. <br />
+        HTML Links - Syntax: <br />
+        <!-- <a href="url">link text</a> -->
+        (a)tag has two attributes <mark>href</mark> and <mark>terget_blank</mark>.
+    </p>
+    <p>you will commonly come across the following types of links:</p>
+    <ul>
+        <li>Links from one website to another. </li>
+        <li>Links from one page to another on the same page.</li>
+        <li>Links from one part of a web page to another part of the same page.</li>
+        <li>Links that open in a new browser/tab window.</li>
+        <li>Links that start up your email program and address a new email to some one.</li>
+    </ul>
+    <h2>
+        <ul>
+            <li>Writting Link</li>
+        </ul>
+    </h2>
+    <a href="https://www.piaic.org">Navigate to me PIAIC webpage</a> <br />
+    <a href="https://www.piaic.wit">Navigate to me PIAIC wit</a> <br />
+    <h2>
+        <ul>
+            <li>Linking to other sites</li>
+        </ul>
+    </h2>
+    <ul>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://www.facebook.com" target="_blank">FaceBook</a></li>
+    </ul>
+    <h2>
+        <ul>
+            <li>Linking to other pages on the same site</li>
+        </ul>
+    </h2>
+    <ul>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact us</a></li>
+    </ul>
+    <h2>
+        <ul>
+            <li>Absolute URLs vs. Relative URLs</li>
+        </ul>
+    </h2>
+    <p>
+        absolute URL (a full web address) in the href attribute. <br />
+        <a href="https://www.youtube.com" target="_blank">YouTube</a> <br /> <br />
+        relative URL (without the "https://www" part): simple file name in the href attributes.<br />
+        <a href="about.html">about</a>
+    </p>
+    <h2>
+        <ul>
+            <li>HTML Links - Use an Image as a Link</li>
+        </ul>
+    </h2>
+    <a href="contact.html"><img src="./abc.JPEG" alt="penguin" width="100px" height="80"></a>
+    <br />
+     <h2>
+        <ul>
+            <li>Email Link</li>
+        </ul>
+    </h2>
+    <a href="mailto:danish.03112210576@gmail.com">Email Danish</a>
+    <h2>
+        <ul>
+            <li>Relative link type</li>
+        </ul>
+    </h2>
+    <p>
+        <b>same folder:</b> To link to a file in the same folder,just use the file name. <br />
+        (href = "reviews.html") <br /> <br />
+        <b>Child folder:</b> For a child folder,use the name of child folder,followed by a <br />
+        forward slash,then the file name. <br />
+        (href = "music/listing.html") <br /> <br />
+        <b>Grand child folder:</b> Use the name of the child folder, followed by a forward slash <br />
+        then the name of the grand child folder, follwed by an other forward slash <br />
+        then the file name. <br />
+        (href = "movies/dvd/reviews.html") <br /> <br />
+        <b>Parent folder:</b> Use ..// to indicate the folder above the current one, <br />
+        then follow it with the file name. <br />
+        (href = "..//index.html") <br /> <br />
+        <b>GrandParent folder:</b> Repeat the ..// to indicate that you want to go up <br />
+        two folders(rather then one),then follow it with the file name. <br />
+        (href = "..//..//index.html")
+    </p>
+    <h2>
+        <ul>
+            <li>Button as a Link</li>
+        </ul>
+    </h2>
+    <p>Click the button to go to the About.Html page.</p>
+    <button onclick="document.location='about.html'">About.Html</button>
+
+</body>
+
+</html>
